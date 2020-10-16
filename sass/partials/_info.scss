@@ -1,0 +1,28 @@
+.info{
+    background-image:url(".././img/bg.jpg");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 558px;
+}
+.info-logos{
+    width: 207px;
+    height: 64px;
+    padding-top: 265px;
+    padding-left: 297px;
+    padding-right: 262px;
+    margin: 0px;
+    float: left;
+}
+.info-text{
+    width: 545px;
+    margin: 0px;
+    float: left;
+    padding-top: 143px;
+    p{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 40px;
+        margin-top:0px;
+    }
+}

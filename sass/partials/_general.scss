@@ -1,0 +1,25 @@
+body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+.clearfix::after {   
+    content: "";   
+    clear: both;   
+    display: table;
+}

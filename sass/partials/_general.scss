@@ -1,6 +1,6 @@
 body{
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $Montserrat;
     margin: 0;
 }
 li{
@@ -11,7 +11,7 @@ a{
     color: white;
 }
 .wrapper{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 ul{

@@ -1,33 +1,37 @@
 .head{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $Montserrat;
     font-size: 16px;
 }
 .head-menu{
-    background-color: #03061a;
+    background-color:$dark-bue;
 }
 .head-menu-logos{
     float: left;
-    width: 105px;
-    height: 31px;
-    margin-top: 42px;
-    margin-bottom: 32px;
-    margin-left: 104px;
-    margin-right: 598px;
+    width: 7.29%;
+    height: 2.15%;
+    margin-top: 2.91%;
+    margin-bottom: 2.22%;
+    margin-left: 7.22%;
+    margin-right: 42.71%;
 }
 .head-menu-logos img{
-    width: 105px;
-    height: 31px;
+    width: 100px;
+    height: auto;
 }
 .head-menu-items {
     li{
         float: left;
-        margin-top: 48px;
+        margin-top: 3.33%;
         display: block;
     }
     li+li{
-        margin-left: 42px;
+        margin-left: 2.91%;
     }
 }
 .head-portada{
-    height: 532px;
+    height: 36.94%;
+    img{
+        width: 100%;
+        max-width: 100%;
+    }
 }

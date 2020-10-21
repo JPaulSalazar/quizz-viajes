@@ -71,18 +71,16 @@ h1 {
   padding-bottom: 99px; }
 
 .main-images {
-  position: relative;
-  float: left;
   padding-top: 52px;
   padding-left: 44px; }
   .main-images img {
     width: 397px;
     height: auto; }
-  .main-images a + a {
-    padding-left: 40px; }
 
-.main-images a + a {
-  padding-left: 40px; }
+.main-images-container {
+  float: left;
+  padding-left: 40px;
+  position: relative; }
 
 .main-description {
   width: 397px;
@@ -90,12 +88,30 @@ h1 {
   background-color: rgba(0, 0, 0, 0.541);
   font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 36px;
-  position: absolute; }
+  position: absolute;
+  bottom: 5px; }
+
+.main-description-cuba {
+  width: 397px;
+  height: 56px;
+  background-color: rgba(0, 0, 0, 0.541);
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 36px;
+  position: absolute;
+  bottom: 50px; }
 
 .main-mas1 {
   background-color: rgba(0, 0, 0, 0.541);
   font-family: 'Montserrat', sans-serif;
-  position: absolute; }
+  position: absolute;
+  width: 397px;
+  height: 47px;
+  position: absolute;
+  bottom: 5px;
+  font-size: 19px; }
+  .main-mas1 p {
+    margin: 0px;
+    padding-top: 10px; }
 
 .main-mas2 {
   background-color: rgba(0, 0, 0, 0.541);
@@ -135,12 +151,11 @@ h1 {
 .footer-menu {
   padding-top: 52px;
   padding-left: 407px; }
+  .footer-menu a {
+    padding-left: 43px; }
 
 .footer-link {
   float: left; }
-
-a {
-  padding-left: 43px; }
 
 .footer-facebook {
   padding-top: 42px;

@@ -21,12 +21,15 @@
 .head-menu-items {
     li{
         float: left;
-        margin-top: 3.33%;
+        padding-top: 3.33%;
         display: block;
     }
     li+li{
         margin-left: 2.91%;
     }
+}
+.head-menu-item{
+    display: none;
 }
 .head-portada{
     height: 36.94%;

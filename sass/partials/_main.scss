@@ -11,23 +11,24 @@ h1{
 .main-title{
     padding-top: 4.16%;
 }
-.main-images +.main-images{
-    padding-bottom: 6.87%;
-}
 .main-images{
-    padding-top:3.61%;
+    padding-left:4.51%;
+    padding-bottom: 6.87%;
+    width: 100%;
+    max-width: 100%;
     img{
-        width: 397px;
-        height: auto;
+        width: 100%;
+        max-width:100%;
     }
 }
 .main-images-container{
     float: left;
     padding-left: 2.77%;
+    padding-top: 2.77%;
     position: relative;
 }
 .main-description{
-    width: 397px;
+    width: 395px;
     height: 56px;
     background-color:$spam;
     font-family:$oleo;
@@ -36,7 +37,7 @@ h1{
     bottom: 5px;
 }
 .main-description-cuba{
-    width: 397px;
+    width: 395px;
     height: 56px;
     background-color:$spam;
     font-family:$oleo;
@@ -48,7 +49,7 @@ h1{
     background-color:$spam;
     font-family:$Montserrat;
     position: absolute;
-    width: 397px;
+    width: 395px;
     height: 47px;
     position: absolute;
     bottom: 5px;

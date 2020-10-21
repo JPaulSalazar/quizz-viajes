@@ -1,0 +1,50 @@
+@media(max-width:1023px){
+    .head-menu-item{
+        display: block;
+        padding-top: 43px;
+    }
+    .head-menu-logos{
+        margin-right: 70%;
+    }
+    .main-images{
+        float: none;
+    }
+    .main-images-container{
+        float: left;
+    }
+    .head-menu-items {
+        ul{
+            display: none;
+        }
+    }
+    .info{
+        text-align: center;
+    }
+    .info-logos{
+        width: 14.37%;
+        height: 4.44%;
+        padding-top: 9.40%;
+        padding-left: 43.01%;
+        padding-right: 0;
+        margin: 0px;
+        float: none
+    }
+    .info-text{
+        width: 37.84%;
+        margin: 0px;
+        float: none;
+        padding-left: 31.10%;
+        padding-top: 5%;
+        padding-bottom: 3.40%;
+        p{
+            font-size: 12px;
+        }
+        h2{
+            font-size: 30px;
+        }
+    }
+    .footer-menu{
+        padding-top: 3.61%;
+        padding-left: 24.26%;
+    }
+}

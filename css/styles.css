@@ -45,11 +45,14 @@ ul {
 
 .head-menu-items li {
   float: left;
-  margin-top: 3.33%;
+  padding-top: 3.33%;
   display: block; }
 
 .head-menu-items li + li {
   margin-left: 2.91%; }
+
+.head-menu-item {
+  display: none; }
 
 .head-portada {
   height: 36.94%; }
@@ -70,22 +73,23 @@ h1 {
 .main-title {
   padding-top: 4.16%; }
 
-.main-images + .main-images {
-  padding-bottom: 6.87%; }
-
 .main-images {
-  padding-top: 3.61%; }
+  padding-left: 4.51%;
+  padding-bottom: 6.87%;
+  width: 100%;
+  max-width: 100%; }
   .main-images img {
-    width: 397px;
-    height: auto; }
+    width: 100%;
+    max-width: 100%; }
 
 .main-images-container {
   float: left;
   padding-left: 2.77%;
+  padding-top: 2.77%;
   position: relative; }
 
 .main-description {
-  width: 397px;
+  width: 395px;
   height: 56px;
   background-color: rgba(0, 0, 0, 0.541);
   font-family: "Oleo Script Swash Caps", cursive;
@@ -94,7 +98,7 @@ h1 {
   bottom: 5px; }
 
 .main-description-cuba {
-  width: 397px;
+  width: 395px;
   height: 56px;
   background-color: rgba(0, 0, 0, 0.541);
   font-family: "Oleo Script Swash Caps", cursive;
@@ -106,7 +110,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.541);
   font-family: "Montserrat", sans-serif;
   position: absolute;
-  width: 397px;
+  width: 395px;
   height: 47px;
   position: absolute;
   bottom: 5px;
@@ -151,7 +155,7 @@ h1 {
 
 .footer-menu {
   padding-top: 3.61%;
-  padding-left: 28.26%; }
+  padding-left: 30.26%; }
   .footer-menu a {
     padding-left: 2.98%; }
 
@@ -165,3 +169,40 @@ h1 {
 .footer-credits p {
   margin: 0;
   padding-bottom: 3.05%; }
+
+@media (max-width: 1023px) {
+  .head-menu-item {
+    display: block;
+    padding-top: 43px; }
+  .head-menu-logos {
+    margin-right: 70%; }
+  .main-images {
+    float: none; }
+  .main-images-container {
+    float: left; }
+  .head-menu-items ul {
+    display: none; }
+  .info {
+    text-align: center; }
+  .info-logos {
+    width: 14.37%;
+    height: 4.44%;
+    padding-top: 9.40%;
+    padding-left: 43.01%;
+    padding-right: 0;
+    margin: 0px;
+    float: none; }
+  .info-text {
+    width: 37.84%;
+    margin: 0px;
+    float: none;
+    padding-left: 31.10%;
+    padding-top: 5%;
+    padding-bottom: 3.40%; }
+    .info-text p {
+      font-size: 12px; }
+    .info-text h2 {
+      font-size: 30px; }
+  .footer-menu {
+    padding-top: 3.61%;
+    padding-left: 24.26%; } }

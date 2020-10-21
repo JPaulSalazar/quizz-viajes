@@ -206,3 +206,7 @@ h1 {
   .footer-menu {
     padding-top: 3.61%;
     padding-left: 24.26%; } }
+
+@media (max-width: 767px) {
+  .main-images {
+    padding-left: 20.46%; } }
